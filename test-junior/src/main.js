@@ -1,16 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
-import Vuelidate from 'vuelidate'
+import Vue from 'vue';
+import App from './App.vue';
+import Vuelidate from 'vuelidate';
 import vuetify from './plugins/vuetify';
+import Multiselect from 'vue-multiselect';
 
 import "./assets/scss/style.scss";
 
-Vue.config.productionTip = true
+Vue.config.productionTip = true;
 
-Vue.use(Vuelidate)
+Vue.use(Vuelidate);
+Vue.use(Multiselect);
 
 new Vue({
   vuetify,
-  Vuelidate,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');

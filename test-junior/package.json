@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.11",
+    "vue-multiselect": "^2.1.6",
     "vuelidate": "^0.7.6",
     "vuetify": "^2.2.11"
   },
