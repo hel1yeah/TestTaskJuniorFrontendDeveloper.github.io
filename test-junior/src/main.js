@@ -8,10 +8,8 @@ import "./assets/scss/style.scss";
 
 Vue.config.productionTip = true;
 
-Vue.use(Vuelidate);
-Vue.use(Multiselect);
+Vue.use(Vuelidate, Multiselect, vuetify);
 
 new Vue({
-  vuetify,
   render: h => h(App)
 }).$mount('#app');
