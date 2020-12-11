@@ -74,13 +74,13 @@
               <h3 class="block__lable--text">Группа клиентов<span>*</span></h3>
               <multiselect
                 required
+                :searchable="false"
                 v-model="value"
                 :options="options"
                 :multiple="true"
                 :close-on-select="false"
                 :clear-on-select="false"
                 :preserve-search="true"
-                placeholder="Поиск"
                 label="name"
                 track-by="name"
                 :preselect-first="true"
@@ -137,6 +137,8 @@ export default {
   },
 };
 </script>
+
+
 
 <style lang="scss">
 @import "./assets/scss/style";
